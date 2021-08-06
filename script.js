@@ -37,12 +37,8 @@ function generatePassword(){
   let randomNumber = Math.floor(Math.random()*chosenValues.length);
   password.push(chosenValues[randomNumber]);
   }
-  //How to add to an array let chosenValues = [...upper];
-  //use a nested if statements to add to chosenValues
-  //emptyArray needs to add chosenValues[Random number]
-  //use .push to add to password 
-  //password.join(""); adds to empty string
-  // use for loop around repeated steps. 
+   
+  return password.join("");
   //need to return a string return "password";
 }
 
